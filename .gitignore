@@ -1,0 +1,56 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Dipendenze (ENORME E MAI DA CARICARE!)
+/node_modules
+
+# File di Ambiente (CRITICO PER LA SICUREZZA!)
+# Contengono i tuoi segreti, come l'URL di ngrok
+.env
+.env.local
+.env.development
+.env.production
+*.env
+
+# Build & Output
+# La cartella 'dist' è il *risultato* della build, 
+# ma GitHub Pages la crea da solo con le "Actions".
+# Non caricare la tua build locale.
+/dist
+/build
+
+# Log e file di debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# File del Sistema Operativo
+.DS_Store
+Thumbs.db
+
+# File dell'IDE (es. VS Code)
+.vscode/
+.idea/
