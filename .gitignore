@@ -8,7 +8,7 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
-dist
+#dist
 dist-ssr
 *.local
 
@@ -38,7 +38,7 @@ dist-ssr
 # La cartella 'dist' è il *risultato* della build, 
 # ma GitHub Pages la crea da solo con le "Actions".
 # Non caricare la tua build locale.
-/dist
+#/dist
 /build
 
 # Log e file di debug
