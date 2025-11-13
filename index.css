@@ -1,0 +1,9 @@
+#root > div{
+    display: flex;
+    flex-direction: column;
+    height: 100dvh;      /* Occupa tutta l'altezza visibile della viewport, anche su mobile */
+    max-height: 100dvh;  /* Previene overflow verticale */
+    min-height: 0;       /* Importante per evitare problemi di overflow con flex */
+    overflow: hidden;
+}
+
