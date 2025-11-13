@@ -7,3 +7,11 @@
     overflow: hidden;
 }
 
+#root > div > div.flex-1.overflow-y-auto.p-4.space-y-4 {
+  scrollbar-width: none;      /* Firefox */
+  -ms-overflow-style: none;   /* Internet Explorer e Edge */
+}
+
+#root > div > div.flex-1.overflow-y-auto.p-4.space-y-4::-webkit-scrollbar {
+  display: none;              /* Chrome, Safari, Opera */
+}
